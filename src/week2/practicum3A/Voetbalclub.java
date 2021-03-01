@@ -38,6 +38,7 @@ public class Voetbalclub {
     public int aantalGespeeld(){
         return aantalGewonnen + aantalVerloren + aantalGelijk;
     }
+
     public String toString(){
         return naam +" "+aantalGespeeld()+" "+ aantalGewonnen + " " +aantalGelijk+ " "+ aantalVerloren + " " + aantalPunten();
     }
